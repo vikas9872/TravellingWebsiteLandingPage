@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+.backvideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+header{
+    width: 100vw;
+    height: 8vh;
+    position: fixed;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    backdrop-filter: blur(5px);
+}
+.headerleftpart{
+    width: 15vw;
+    display: flex;
+    align-items: center;
+}
+.logoclass{
+    font-size: large;
+    color: #08000d;
+}
+.headermidpart{
+    width: 60vw;
+    background-color: rgba(129, 129, 141, 0.5);
+}
+.headermidpart .navbar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    border: 2px solid #08000d;
+}
+.headermidpart .navbar ul li{
+    padding: 4px;
+}
+.headermidpart .navbar ul li a{
+    text-decoration: none;
+    color: #08000d;
+}
+.headermidpart ul li:hover{
+    background-color: #fff;
+    border-radius: 5px;
+}
+.headerrightpart{
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+}
+.headerrightpart .textclass{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    opacity: 0.5;
+}
+.searchbuttonclass{
+    background-color: #052659;
+    padding: 4px;
+}
+.togglebuttonclass{
+    display: none;
+}
+.landingpage{
+    height: 84vh;
+    padding-top: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landingpage .content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.landingpage .content .contentupperpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    background-color: rgba(129, 129, 141, 0.5);
+    border-radius: 25px;
+}
+.landingpage .content .contentupperpart h1{
+    font-size: xx-large;
+    color: #08000d;
+}
+.landingpage .content .contentupperpart h2{
+    color: #08000d;
+}
+.landingpage .content .contentlowerpart{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.landingpage .content .contentlowerpart .joinusbuttonclass{
+    height: 40px;
+    width: 150px;
+    border: 2px solid #08000d;
+    border-radius: 50px;
+    color: #08000d;
+    font-weight: bold;
+    font-size: medium;
+    background-color: rgba(129, 129, 141, 0.5);
+}
+footer{
+    width: 100%;
+    height: 8vh;
+    backdrop-filter: blur(5px);
+    color: #08000d;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
